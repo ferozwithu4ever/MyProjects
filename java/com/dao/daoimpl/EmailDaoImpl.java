@@ -17,64 +17,8 @@ public class EmailDaoImpl{
 			List<EmailAuthenticationVO> emailList = new LinkedList<EmailAuthenticationVO>();
 			EmailAuthenticationVO emailVO = new EmailAuthenticationVO();
 			
-			emailVO.setEmail("hades.hagen@gmail.com");
-			emailVO.setPassword("ghouse@786");
-			emailVO.setServiceProvider("gmail");
-			emailList.add(emailVO);
-			
-			emailVO = new EmailAuthenticationVO();
-			emailVO.setEmail("fayaz4you2009@gmail.com");
-			emailVO.setPassword("ghouse@786");
-			emailVO.setServiceProvider("gmail");
-			emailList.add(emailVO);
-			
-			emailVO = new EmailAuthenticationVO();
-			emailVO.setEmail("fayaz.mhd87@gmail.com");
-			emailVO.setPassword("ghouse@786");
-			emailVO.setServiceProvider("gmail");
-			emailList.add(emailVO);
-			
-			emailVO = new EmailAuthenticationVO();
-			emailVO.setEmail("surya.kanna.chotu@gmail.com");
-			emailVO.setPassword("gameofthrones@6");
-			emailVO.setServiceProvider("gmail");
-			emailList.add(emailVO);
-			
-			
-			emailVO = new EmailAuthenticationVO();
-			emailVO.setEmail("lolmujju@gmail.com");
-			emailVO.setPassword("9491817793");
-			emailVO.setServiceProvider("gmail");
-			emailList.add(emailVO);
-			
-			emailVO = new EmailAuthenticationVO();
-			emailVO.setEmail("mdshabaz459@gmail.com");
-			emailVO.setPassword("shabaz786");
-			emailVO.setServiceProvider("gmail");
-			emailList.add(emailVO);
-			
-			
-			emailVO = new EmailAuthenticationVO();
-			emailVO.setEmail("jangaon001@gmail.com");
-			emailVO.setPassword("ghouse786");
-			emailVO.setServiceProvider("gmail");
-			emailList.add(emailVO);
-			
-			emailVO = new EmailAuthenticationVO();
-			emailVO.setEmail("jangaon002@gmail.com");
-			emailVO.setPassword("ghouse786");
-			emailVO.setServiceProvider("gmail");
-			emailList.add(emailVO);
-			
-			emailVO = new EmailAuthenticationVO();
-			emailVO.setEmail("techleadsgen@gmail.com");
-			emailVO.setPassword("techleadsgen@123");
-			emailVO.setServiceProvider("gmail");
-			emailList.add(emailVO);
-			
-			emailVO = new EmailAuthenticationVO();
-			emailVO.setEmail("hades.hagen2@gmail.com");
-			emailVO.setPassword("ghouse@786");
+			emailVO.setEmail("email");
+			emailVO.setPassword("pwd");
 			emailVO.setServiceProvider("gmail");
 			emailList.add(emailVO);
 
