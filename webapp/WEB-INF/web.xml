@@ -1,0 +1,25 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<context-param>
+		<param-name>log4j-config-location</param-name>
+		<param-value>WEB-INF/log4j.properties</param-value>
+	</context-param>
+	<listener>
+		<listener-class>com.listener.ContextListener</listener-class>
+	</listener>
+	<servlet>
+		<servlet-name>EmailServelt</servlet-name>
+		<display-name>EmailServelt</display-name>
+		<description></description>
+		<servlet-class>com.servlet.EmailServelt</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>EmailServelt</servlet-name>
+		<url-pattern>/EmailServelt</url-pattern>
+	</servlet-mapping>
+
+</web-app>
